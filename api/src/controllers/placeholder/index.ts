@@ -1,0 +1,1 @@
+export * as placeholderMessagesController from './placeholderMessages/index.js';
