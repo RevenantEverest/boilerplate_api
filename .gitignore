@@ -1,0 +1,10 @@
+# Directories
+**/node_modules/
+**/dist/
+**/postgres_data/
+**/pgadmin_data/
+**/postgres_testing_data/
+
+# Files Extensions
+*.env
+*.log
