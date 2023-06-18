@@ -4,6 +4,11 @@ WORKDIR /app
 
 COPY package.json ./
 COPY yarn.lock ./
+COPY .yarnrc.yml ./
+
+RUN corepack enable
+RUN corepack prepare yarn@stable --activate
+RUN yarn set version stable
 
 RUN yarn install
 
