@@ -1,5 +1,6 @@
 # Directories
 **/node_modules/
+**/.yarn/
 **/dist/
 **/postgres_data/
 **/pgadmin_data/
@@ -8,3 +9,6 @@
 # Files Extensions
 *.env
 *.log
+
+# Specific Files
+.pnp.*
