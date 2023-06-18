@@ -1,5 +1,5 @@
 export type PaginationUrl = string | null;
-export interface PaginatedResponse<T> {
+export interface PaginatedResults<T> {
     count: number,
     next: PaginationUrl,
     previous: PaginationUrl,
