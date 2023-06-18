@@ -1,5 +1,5 @@
 import express from 'express';
-import { placeholderMessagesController } from '../../controllers/placeholder/index.js';
+import { placeholderMessagesController } from '@@controllers/placeholder/index.js';
 
 const router = express.Router();
 

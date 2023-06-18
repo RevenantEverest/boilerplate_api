@@ -2,7 +2,7 @@ import express, { Application } from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 
-import { placeholderRoutes } from './routes/index.js';
+import { placeholderRoutes } from '@@routes/index.js';
 
 function initializeApp(): Application {
     const app = express();
