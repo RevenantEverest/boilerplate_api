@@ -1,5 +1,15 @@
 {
     "jsc": {
+        "baseUrl": "./src",
+        "paths": {
+            "@@types/*": ["./types/*"],
+            "@@entities/*": ["./entities/*"],
+            "@@controllers/*": ["./controllers/*"],
+            "@@routes/*": ["./routes/*"],
+            "@@middleware/*": ["./middleware/*"],
+            "@@constants/*": ["./constants/*"],
+            "@@utils/*": ["./utils/*"]
+        },
         "parser": {
             "syntax": "typescript",
             "decorators": true
@@ -7,7 +17,7 @@
     },
     "env": {
         "targets": {
-            "node": 17
+            "node": 20
         }
     }
 }
